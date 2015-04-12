@@ -1,0 +1,23 @@
+{
+  "name": "bebopizer",
+  "version": "0.1.0",
+  "homepage": "https://github.com/geomodular/bebopizer",
+  "authors": [
+    "geomodular <szabo@hshgroup.sk>"
+  ],
+  "description": "Bebopizer is a binary to a musical notes encoder and decoder.",
+  "main": "dist/bebopizer.js",
+  "keywords": [
+    "encode",
+    "decoder",
+    "notes"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
