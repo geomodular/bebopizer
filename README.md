@@ -7,6 +7,8 @@ var bebopizer = require('bebopizer');
 
 // To get encoded string 
 var notes = bebopizer.encode('Hello world!');
+console.log(notes); // fCDbDcDcDeDFAEEeDAEcDCDGA
+
 // To decode notes back to string
 var string = bebopizer.decodeToStr(notes);
 
@@ -23,7 +25,7 @@ npm install
 npm test
 ```
 
-If you want to make a test in browser do
+If you want to make a test in a browser do
 ```bash
 npm install
 bower install
