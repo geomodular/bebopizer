@@ -1,7 +1,7 @@
 {
   "name": "bebopizer",
   "version": "0.1.0",
-  "description": "Bebopizer is a binary to musical notes encoder and decoder.",
+  "description": "Bebopizer is a binary to a musical notes encoder and decoder.",
   "main": "lib/index.js",
   "scripts": {
     "build": "./node_modules/.bin/gulp build",
