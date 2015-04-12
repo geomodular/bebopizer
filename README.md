@@ -17,7 +17,17 @@ var ab = bebopizer.decode(notes);
 ```
 
 ## Tests
+For NodeJS library version do
 ```bash
+npm install
 npm test
 ```
+
+If you want to make a test in browser do
+```bash
+npm install
+bower install
+npm run webtest
+```
+And point your browser to http://127.0.0.1:8000/webtest/
 
