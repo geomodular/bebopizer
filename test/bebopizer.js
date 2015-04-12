@@ -2,15 +2,6 @@ var fs = require('fs');
 var should = require('should');
 var bebopizer = require('../lib/index');
 
-function str2ab(string) {
-  var ab = new ArrayBuffer(string.length);
-  var bytes = new Uint8Array(ab);
-  for (var i = 0, len = string.length; i < len; i++) {
-    bytes[i] = string.charCodeAt(i);
-  }
-  return ab;
-}
-
 describe('Bebopizer\'s default engine', function() {
   it('should encode and decode string', function() {
     var lorem = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
@@ -31,6 +22,7 @@ describe('Bebopizer\'s default engine', function() {
 describe('Bebopizer\'s custom scale', function() {
 
   var custom;
+
   before(function() {
     var scale = ['C', 'D', 'E', 'F', 'F#', 'G', 'A', 'B', 'c', 'd', 'e', 'f', 'f#', 'g', 'a', 'b', 'c'];
     custom = bebopizer.create(scale);
