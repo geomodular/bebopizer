@@ -6,7 +6,10 @@
     "geomodular <szabo@hshgroup.sk>"
   ],
   "description": "Bebopizer is a binary to a musical notes encoder and decoder.",
-  "main": "dist/bebopizer.js",
+  "main": [
+    "dist/bebopizer.js",
+    "dist/bebopizer.min.js"
+  ],
   "keywords": [
     "encode",
     "decoder",
